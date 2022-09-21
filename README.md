@@ -1,12 +1,23 @@
-# Internet-Draft Template Repository
+# Internet Draft draft-jones-dkim-key-wrapper
 
-Use this repository as a template if you want to start working on
-[IETF](https://www.ietf.org/) documents.
+Proposing a way to package key information in order to simplify the
+exchange and provisioning of DKIM key data. The primary use case is
+eliminating errors when publishing public DKIM key records in the DNS,
+but the proposal tries to cover private key handling, key archiving,
+and any other reasonable functions.
 
-[Read the
-instructions](https://github.com/martinthomson/i-d-template/blob/main/doc/TEMPLATE.md)
-for more information.
+It is intended to reduce errors by facilitating automated processing,
+particularly when inexperienced parties are asked to create DKIM
+public key records in the DNS.
 
-Once you have created your own repository, start work by renaming the
-`draft-todo-yourname-protocol.md` file
-[here](../../edit/main/draft-todo-yourname-protocol.md).
+The source file is
+[draft-jones-dkim-key-wrapper.md](../../edit/main/draft-jones-dkim-key-wrapper.md).
+
+The source file uses[mmark](https://mmark.miek.nl/) format. However
+because of tool and platform dependencies, processing of the markdown
+file into various formats is performed using the [IETF Author
+Tools](https://author-tools.ietf.org/)
+
+
+
+
